@@ -1,5 +1,4 @@
 import { useNavigate } from "react-router-dom"
-import { Footer } from "./common/footer"
 import backgroundStyles from "./styles/backgroundMovement.module.scss"
 
 const paddingTop = {
@@ -24,7 +23,6 @@ export const Home = () => {
             <button onClick={onMovePage}>ガチャを回す（一回１万円！）</button>
           </div>
         </form>
-        <Footer />
       </div>
       <ul className={backgroundStyles.bgBubbles}>
         <li></li>

@@ -1,4 +1,3 @@
-import { Footer } from "./common/footer"
 import backgroundStyles from "./styles/backgroundMovement_item.module.scss"
 
 export const Item = () => {
@@ -72,7 +71,6 @@ export const Item = () => {
           </div>
         </div>
       </div>
-      <Footer />
       <ul className={backgroundStyles.bgBubbles}>
         <li></li>
         <li></li>

@@ -26,10 +26,12 @@ export const Header = () => {
         <Container>
           <Nav>
             <Navbar.Brand href="/" style={{ marginRight: "3em", marginLeft: "0" }}>
-              <img alt="logo" src="/images/icon.ico" width="80" height="80" className="d-inline-block align-top" />{" "}
-              <span style={{ fontFamily: "Pacifico", fontWeight: "2000", fontSize: "25px", color: "#D8E3D7" }}>
-                YOU-KNOW-WHO
-              </span>
+              <div className="d-flex align-items-center">
+                <img alt="logo" src="/images/icon.ico" width="80" height="80" className="d-inline-block align-top" />{" "}
+                <span style={{ fontFamily: "Pacifico", fontWeight: "2000", fontSize: "25px", color: "#D8E3D7" }}>
+                  YOU-KNOW-WHO
+                </span>
+              </div>
             </Navbar.Brand>
           </Nav>
           <Nav>

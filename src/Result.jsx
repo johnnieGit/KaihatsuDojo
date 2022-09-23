@@ -1,6 +1,5 @@
 import { useNavigate } from "react-router-dom"
 import { Rare } from "./result/rare"
-import { Footer } from "./common/footer"
 import backgroundStyles from "./styles/backgroundMovement_result.module.scss"
 
 // 遷移先ページ
@@ -51,7 +50,6 @@ export const Result = () => {
             確認
           </button>
         </form>
-        <Footer />
       </div>
       <ul className={backgroundStyles.bgBubbles}>
         <li></li>

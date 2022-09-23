@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import { Header } from "./common/header"
-import { Footer } from "./common/footer"
+import { Header } from "./components/header"
+import { Footer } from "./components/footer"
 import { Home } from "./Home"
 import { Result } from "./Result"
 import { Item } from "./Item"
@@ -16,6 +16,7 @@ export const App = () => {
           <Route path="item" element={<Item />} />
         </Routes>
       </BrowserRouter>
+      <Footer />
     </>
   )
 }
