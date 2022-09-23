@@ -1,8 +1,8 @@
 export const items = [
-    {
-        name: "aa",
-        id: 1,
-        description: "",
-        rarity: 1
-    }
+  {
+    name: "aa",
+    id: 1,
+    description: "",
+    rarity: 1,
+  },
 ]

@@ -10,7 +10,7 @@
 ** Set up the experiment
 */
 html {
-  background-color: #FFFFCC;
+  background-color: #ffffcc;
   height: 100%;
 }
 
@@ -84,5 +84,4 @@ p {
 */
 .Words:hover p {
   transform: translate3d(0, -180px, 0);
-
 }
