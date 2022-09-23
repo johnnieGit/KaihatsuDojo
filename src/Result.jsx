@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom"
 import Icon from "./images/ガキ大将.jpeg"
 import { Rare } from "./result/rare"
 import { Footer } from "./common/footer"
-import classes from "./backgroundMovement_result.module.scss"
+import backgroundStyles from "./styles/backgroundMovement_result.module.scss"
 
 // 遷移先ページ
 export const Result = () => {
@@ -24,8 +24,8 @@ export const Result = () => {
   }
 
   return (
-    <div className={classes.wrapper}>
-      <div className={classes.container}>
+    <div className={backgroundStyles.wrapper}>
+      <div className={backgroundStyles.container}>
         <form>
           <h1 style={textTop}>結果発表</h1>
           <br></br>
@@ -54,7 +54,7 @@ export const Result = () => {
         </form>
         <Footer />
       </div>
-      <ul className={classes.bgBubbles}>
+      <ul className={backgroundStyles.bgBubbles}>
         <li></li>
         <li></li>
         <li></li>

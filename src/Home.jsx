@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom"
 import { Footer } from "./common/footer"
-import classes from "./backgroundMovement.module.scss"
+import backgroundStyles from "./styles/backgroundMovement.module.scss"
 
 const paddingTop = {
   paddingTop: "200px",
@@ -16,8 +16,8 @@ export const Home = () => {
   }
 
   return (
-    <div className={classes.wrapper} style={{ height: "100vh" }}>
-      <div className={classes.container}>
+    <div className={backgroundStyles.wrapper} style={{ height: "100vh" }}>
+      <div className={backgroundStyles.container}>
         <form>
           <div style={paddingTop}>
             <h1 style={{ color: "white" }}>元ページ</h1>
@@ -26,7 +26,7 @@ export const Home = () => {
         </form>
         <Footer />
       </div>
-      <ul className={classes.bgBubbles}>
+      <ul className={backgroundStyles.bgBubbles}>
         <li></li>
         <li></li>
         <li></li>

@@ -4,7 +4,6 @@ import { Footer } from "./common/footer"
 import { Home } from "./Home"
 import { Result } from "./Result"
 import { Item } from "./Item"
-import "bootstrap/dist/css/bootstrap.min.css"
 
 export const App = () => {
   return (

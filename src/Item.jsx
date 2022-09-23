@@ -1,5 +1,5 @@
 import { Footer } from "./common/footer"
-import classes from "./backgroundMovement_item.module.scss"
+import backgroundStyles from "./styles/backgroundMovement_item.module.scss"
 
 export const Item = () => {
   const textTop = {
@@ -10,8 +10,8 @@ export const Item = () => {
   }
 
   return (
-    <div className={classes.wrapper}>
-      <div className={classes.container}>
+    <div className={backgroundStyles.wrapper}>
+      <div className={backgroundStyles.container}>
         <h1 style={textTop}>アイテムボックス</h1>
         <div class="main col-12 text-center">
           <div class="">
@@ -73,7 +73,7 @@ export const Item = () => {
         </div>
       </div>
       <Footer />
-      <ul className={classes.bgBubbles}>
+      <ul className={backgroundStyles.bgBubbles}>
         <li></li>
         <li></li>
         <li></li>
