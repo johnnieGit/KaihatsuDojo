@@ -1,5 +1,4 @@
 import { useNavigate } from "react-router-dom"
-import Icon from "./images/ガキ大将.jpeg"
 import { Rare } from "./result/rare"
 import { Footer } from "./common/footer"
 import backgroundStyles from "./styles/backgroundMovement_result.module.scss"
@@ -44,7 +43,7 @@ export const Result = () => {
             <Rare />
           </div>
           <figure style={textCenter}>
-            <img src={Icon} width="550"></img>
+            <img src="/images/characters/1.jpg" width="550"></img>
           </figure>
           <br></br>
           <h3 style={{ color: "white" }}>母ちゃんの言うことは聞くガキ大将</h3>
