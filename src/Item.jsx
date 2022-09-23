@@ -1,5 +1,3 @@
-import backgroundStyles from "./styles/backgroundMovement_item.module.scss"
-
 export const Item = () => {
   const textTop = {
     paddingTop: "20px",
@@ -9,80 +7,66 @@ export const Item = () => {
   }
 
   return (
-    <div className={backgroundStyles.wrapper}>
-      <div className={backgroundStyles.container}>
-        <h1 style={textTop}>アイテムボックス</h1>
-        <div class="main col-12 text-center">
-          <div class="">
-            <h3>選択中：パソコンくん</h3>
-            <img src="logo192.png" class="rounded mx-auto d-block" alt="..."></img>
-            <p>説明文ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー</p>
-          </div>
+    <>
+      <h1 style={textTop}>アイテムボックス</h1>
+      <div class="main col-12 text-center">
+        <div class="">
+          <h3>選択中：パソコンくん</h3>
+          <img src="logo192.png" class="rounded mx-auto d-block" alt="..."></img>
+          <p>説明文ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー</p>
         </div>
+      </div>
 
-        <div class="container">
-          <div class="row gy-3">
-            <div class="col-md-4">
-              <div class="card text-center">
-                <div class="card-body">
-                  <h5 class="card-title">アイテム名：　ポテトくん</h5>
-                  <img src="logo192.png" class="rounded mx-auto d-block" alt="..."></img>
-                  <a href="#" class="btn btn-primary">
-                    詳細
-                  </a>
-                </div>
+      <div class="container">
+        <div class="row gy-3">
+          <div class="col-md-4">
+            <div class="card text-center">
+              <div class="card-body">
+                <h5 class="card-title">アイテム名：　ポテトくん</h5>
+                <img src="logo192.png" class="rounded mx-auto d-block" alt="..."></img>
+                <a href="#" class="btn btn-primary">
+                  詳細
+                </a>
               </div>
             </div>
+          </div>
 
-            <div class="col-md-4">
-              <div class="card text-center">
-                <div class="card-body">
-                  <h5 class="card-title">アイテム名：　サラダちゃん</h5>
-                  <img src="logo192.png" class="rounded mx-auto d-block" alt="..."></img>
-                  <a href="#" class="btn btn-primary">
-                    詳細
-                  </a>
-                </div>
+          <div class="col-md-4">
+            <div class="card text-center">
+              <div class="card-body">
+                <h5 class="card-title">アイテム名：　サラダちゃん</h5>
+                <img src="logo192.png" class="rounded mx-auto d-block" alt="..."></img>
+                <a href="#" class="btn btn-primary">
+                  詳細
+                </a>
               </div>
             </div>
+          </div>
 
-            <div class="col-md-4">
-              <div class="card text-center">
-                <div class="card-body">
-                  <h5 class="card-title">アイテム名：　チョコちゃん</h5>
-                  <img src="logo192.png" class="rounded mx-auto d-block" alt="..."></img>
-                  <a href="#" class="btn btn-primary">
-                    詳細
-                  </a>
-                </div>
+          <div class="col-md-4">
+            <div class="card text-center">
+              <div class="card-body">
+                <h5 class="card-title">アイテム名：　チョコちゃん</h5>
+                <img src="logo192.png" class="rounded mx-auto d-block" alt="..."></img>
+                <a href="#" class="btn btn-primary">
+                  詳細
+                </a>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="card text-center">
-                <div class="card-body">
-                  <h5 class="card-title">アイテム名：　バーガーくん</h5>
-                  <img src="logo192.png" class="rounded mx-auto d-block" alt="..."></img>
-                  <a href="#" class="btn btn-primary">
-                    詳細
-                  </a>
-                </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center">
+              <div class="card-body">
+                <h5 class="card-title">アイテム名：　バーガーくん</h5>
+                <img src="logo192.png" class="rounded mx-auto d-block" alt="..."></img>
+                <a href="#" class="btn btn-primary">
+                  詳細
+                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <ul className={backgroundStyles.bgBubbles}>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-    </div>
+    </>
   )
 }

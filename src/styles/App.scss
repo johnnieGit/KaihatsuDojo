@@ -1,22 +1,6 @@
-.App {
-  text-align: center;
-  margin-top: 15rem;
-}
-
-p {
-  font-size: 1.3rem;
-  font-weight: 600;
-}
-
-h1 {
-  font-size: 3rem;
-}
-
-img {
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
-}
+$primary: #509898;
+$secondary: #cf9b48;
+@import "~bootstrap/scss/bootstrap";
 
 button {
   margin-top: 14px;

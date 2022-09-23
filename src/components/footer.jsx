@@ -1,9 +1,7 @@
 export const Footer = () => {
   return (
-    <div className="py-5">
-      <footer style={{ textAlign: "right" }}>
-        <small>©2022 KAIHATSUDOJO WEB3_1. All Rights Reserved.</small>
-      </footer>
-    </div>
+    <footer className="text-center py-5 bg-primary text-white">
+      <small>©2022 KAIHATSUDOJO WEB3_1. All Rights Reserved.</small>
+    </footer>
   )
 }
