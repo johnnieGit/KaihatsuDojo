@@ -2,7 +2,7 @@ import { ColoredMessage } from "./coloredMessage";
 
 export const Rare = () => {
     const rarity = 1;
-    if (rarity === 1) {
+    if (rarity === 3) {
         return (
             <>
             <ColoredMessage>🌟🌟🌟</ColoredMessage>
@@ -13,14 +13,14 @@ export const Rare = () => {
         return (
             <>
             <ColoredMessage>🌟🌟</ColoredMessage>
-            <ColoredMessage>そこそこラッキーだね</ColoredMessage>
+            <ColoredMessage color="white">そこそこラッキーだね</ColoredMessage>
             </>
         );
-    } else if (rarity === 3) {
+    } else if (rarity === 1) {
         return (
             <>
             <ColoredMessage>🌟</ColoredMessage>
-            <ColoredMessage>残念!!クソアイテム!!課金しよう!!!</ColoredMessage>
+            <ColoredMessage color="white">残念!!クソアイテム!!課金しよう!!!</ColoredMessage>
             </>
         );
     }

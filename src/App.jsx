@@ -3,6 +3,7 @@ import { Header } from "./common/header";
 import { Footer } from "./common/footer";
 import { Home } from "./Home";
 import { Result} from "./Result";
+import { Item } from "./Item";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export const App = () => {
@@ -13,9 +14,9 @@ export const App = () => {
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route path="result" element={<Result />} />
+            <Route path="item" element={<Item />} />
           </Routes>
         </BrowserRouter>
-         {/* <Footer /> */}
       </>
     );
   };

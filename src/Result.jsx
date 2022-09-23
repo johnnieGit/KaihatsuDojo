@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router-dom';
 import Icon from "./images/ガキ大将.jpeg";
 import { Rare } from "./result/rare";
 import { Footer } from "./common/footer";
@@ -5,12 +6,19 @@ import classes from "./backgroundMovement_result.module.scss";
 
 // 遷移先ページ
 export const Result = () => {
+
+    // 遷移用ボタンアクション
+    const navigation = useNavigate()
+    const onMovePage = () => {
+      navigation("/Item");
+    };
+
     const textCenter = {
         textAlign: "center",
     };
   
     const textTop = {
-      paddingTop: "100px",
+      paddingTop: "20px",
       color: "white",
       fontFamily: "Kosugi Maru",
       fontSize: "5em"
@@ -30,6 +38,7 @@ export const Result = () => {
                     </figure>
                     <br></br>
                     <h3 style={{ color: "white" }}>母ちゃんの言うことは聞くガキ大将</h3>
+                    <button style={{ marginTop: "50px" }} onClick={onMovePage}>確認</button>
                 </form>
                 <Footer />
             </div>
@@ -47,4 +56,4 @@ export const Result = () => {
             </ul>
         </div>
     );
-};
+}; 
