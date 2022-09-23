@@ -1,7 +1,7 @@
-import { useNavigate } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+import Icon from "./キャラ1-40年後の君.jpg";
 
 export const Header = () => {
 
@@ -19,7 +19,7 @@ export const Header = () => {
                 <Navbar.Brand href="/" style={{ marginRight: "3em", marginLeft: "0" }}>
                     <img
                     alt=""
-                    src="/logo.svg"
+                    src={Icon}
                     width="30"
                     height="30"
                     className="d-inline-block align-top"
