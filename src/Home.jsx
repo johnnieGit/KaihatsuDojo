@@ -10,6 +10,7 @@ const paddingTop = {
 
 // 最初に表示されている遷移元ページ
 export const Home = () => {
+
     // 遷移用ボタンアクション
     const navigation = useNavigate()
     const onMovePage = () => {
@@ -17,11 +18,11 @@ export const Home = () => {
     };
   
     return (
-        <div className={classes.wrapper} style = {{height:"100vh"}}>
+        <div className={classes.wrapper} style = {{ height:"100vh" }}>
             <div className={classes.container}>
                 <form>
                     <div style={paddingTop}>
-                        <h1 style={{color: "white"}}>元ページ</h1>
+                        <h1 style={{ color: "white" }}>元ページ</h1>
                         <button onClick={onMovePage}>ガチャを回す（一回１万円！）</button>
                     </div>
                 </form>
