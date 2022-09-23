@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import Icon from "./キャラ1-40年後の君.jpg";
+import icon from "../images/icon1.ico";
 
 export const Header = () => {
 
@@ -18,10 +18,10 @@ export const Header = () => {
             <Nav>
                 <Navbar.Brand href="/" style={{ marginRight: "3em", marginLeft: "0" }}>
                     <img
-                    alt=""
-                    src={Icon}
-                    width="30"
-                    height="30"
+                    alt = ""
+                    src = { icon }
+                    width="80"
+                    height="80"
                     className="d-inline-block align-top"
                     />{' '}
                     <span style={{ fontFamily: "Pacifico", fontWeight: "2000", fontSize: "25px", color: "#D8E3D7" }}>YOU-KNOW-WHO</span>
